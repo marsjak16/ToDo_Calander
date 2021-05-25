@@ -1,0 +1,31 @@
+X
+-- name: string
+-- datetime: datetime
+-- description: string
+-- tags[]: string[]
+-- recurence??
+get_name() -> string
+get_datetime() -> datetime
+get_description() -> string
+get_tags() -> string[]
+set_name()
+set_datetime()
+set_description()
+add_to_description()
+add_tag()
+remove_tag()
+
+
+Task extends X
+-- importance level: int
+-- reminder_date: datetime
+get_important(): int
+get_reminder_date(): datetime
+set_importance()
+set_reminder_datetime()
+
+
+Event extends X
+-- location: string
+get_location(): string
+set_location()
