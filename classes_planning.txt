@@ -3,7 +3,7 @@ X
 -- datetime: datetime
 -- description: string
 -- tags[]: string[]
--- recurence??
+-- recurrence??
 get_name() -> string
 get_datetime() -> datetime
 get_description() -> string
