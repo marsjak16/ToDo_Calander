@@ -1,4 +1,4 @@
-X
+Occurrence
 -- name: string
 -- datetime: datetime
 -- description: string
@@ -16,7 +16,7 @@ add_tag()
 remove_tag()
 
 
-Task extends X
+Task extends Occurrence
 -- importance level: int
 -- reminder_date: datetime
 get_important(): int
@@ -25,7 +25,7 @@ set_importance()
 set_reminder_datetime()
 
 
-Event extends X
+Event extends Occurrence
 -- location: string
 get_location(): string
 set_location()

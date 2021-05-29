@@ -1,7 +1,7 @@
-import Occurence
+import Occurrence
 
 
-class Event(Occurence):
+class Event(Occurrence):
 
     def __init__(self, name, date_time, description, tags, location):
         super().__init__(name, date_time, description, tags)

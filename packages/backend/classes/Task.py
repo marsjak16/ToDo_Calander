@@ -1,8 +1,8 @@
 import datetime
-from packages.backend.classes import Occurence
+from packages.backend.classes import Occurrence
 
 
-class Task(Occurence):
+class Task(Occurrence):
 
     def __init__(self, name, date_time, description, tags, importance, reminder_date):
         super().__init__(name, date_time, description, tags)
